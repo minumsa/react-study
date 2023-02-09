@@ -9,6 +9,9 @@ function Main() {
         <Link to="/state">
           <li>useState로 이동</li>
         </Link>
+        <Link to="/state2">
+          <li>useState 2로 이동</li>
+        </Link>
         <Link to="/effect">
           <li>useEffect로 이동</li>
         </Link>
