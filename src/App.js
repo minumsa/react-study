@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Main from "./Main";
-import UseState from "./UseState";
+import Effect from "./Effect";
+import State from "./State";
 
 function App() {
   return (
@@ -9,13 +10,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />}></Route>
-          <Route path="/UseState" element={<UseState />}></Route>
+          <Route path="/state" element={<State />}></Route>
+          <Route path="/effect" element={<Effect />}></Route>
         </Routes>
       </BrowserRouter>
-      {/* <Link to="/useState">useState로 이동</Link>
-      <br />
-      <Link to="/useEffect">useEffect로 이동</Link>
-      <br /> */}
     </div>
   );
 }

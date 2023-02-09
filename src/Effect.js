@@ -1,7 +1,7 @@
 import React from "react";
 
 function useEffect() {
-  return <div>useEffect</div>;
+  return <div>useEffect 연습</div>;
 }
 
 export default useEffect;

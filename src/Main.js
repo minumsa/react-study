@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function main() {
+function Main() {
   return (
     <div>
       <p>Hello, React!</p>
       <ul>
-        <Link to="/UseState">
+        <Link to="/state">
           <li>useState로 이동</li>
         </Link>
-        <Link to="/UseEffect">
+        <Link to="/effect">
           <li>useEffect로 이동</li>
         </Link>
       </ul>
@@ -17,4 +17,4 @@ function main() {
   );
 }
 
-export default main;
+export default Main;
