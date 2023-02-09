@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Effect() {
   const [count, setCount] = useState(1);
@@ -39,6 +40,9 @@ function Effect() {
       <br />
       <input type="text" value={name} onChange={handleInputChange} />
       <span>name: {name}</span>
+      <Link to="/">
+        <div style={{ marginTop: "50px" }}>메인 페이지로 이동</div>
+      </Link>
     </div>
   );
 }
