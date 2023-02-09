@@ -18,7 +18,7 @@ function Main() {
           <li>useEffect 1로 이동 - 숫자, 이름 업데이트</li>
         </Link>
         <Link to="/effect2">
-          <li>useEffect 2로 이동 - 타이머</li>
+          <li>useEffect 2로 이동 - 타이머 시작, 종료</li>
         </Link>
       </ul>
     </div>
